@@ -2,7 +2,7 @@
 
 This is the repository for the code related to the book chapter 
 
-Kirstin Strokorb. Marco Oesting. *Max-stable processes for spatial extremes*
+Kirstin Strokorb. Marco Oesting. *Max-stable processes for spatial extremes* \
 Chapter 15 of Handbook on Statistics of Extremes (Wiley) - forthcoming 2024+
 
 It contains the following six files:
