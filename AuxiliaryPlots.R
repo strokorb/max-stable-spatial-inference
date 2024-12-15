@@ -78,8 +78,6 @@ QQ.plot <- function(station,horiz=T){
   plot.one.station(station)
   ## plot QQ plot diagnostic
   if (horiz) {par(mai=c(0.8,0.7,0.3,0.5),cex=0.8)} else {{par(mai=c(0.8,0.8,0.2,0.2),cex=1)}}
-  require(extRemes)
-  require(car)
   stopifnot(exists("stations") & exists("maxima14days"))
   stopifnot(exists("location.scale.transformed.temp") & exists("shape"))
   x <- location.scale.transformed.temp[maxima14days$stn==station]
