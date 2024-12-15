@@ -85,6 +85,7 @@ location.scale.transformed.temp <- with(maxima14days,
                                         (temp - (mu0 + mu1*lon + mu2*lat + mu3*alt))/scale) 
 location.scale.transformed.empirical.quantiles <- sort(location.scale.transformed.temp)
 
+library(car)
 QQ.plot(stations$stn[1])
 QQ.plot(stations$stn[2])
 
